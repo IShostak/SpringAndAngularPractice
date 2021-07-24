@@ -1,4 +1,4 @@
-class Customerr {
+export class Customer {
     
     //replace prop and constructor with this: 
     constructor(private _firstName:  string, 
@@ -26,14 +26,3 @@ class Customerr {
         this._firstName = val;
     }
 }
-
-//let myCustomer = new Customer();
-
-//myCustomer.firstName = "Martin";
-//myCustomer.lastName = "Dixon";
-
-let myCustomerr = new Customerr("Martin", "Dixon")
-
-console.log(myCustomerr.firstName); //without getter won't work
-
-console.log(myCustomerr);
